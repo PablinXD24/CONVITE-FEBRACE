@@ -92,6 +92,8 @@ body {
     z-index: 1001;
     position: relative;
     animation: fade-in 0.5s ease-out;
+    max-height: 60vh; /* Define uma altura máxima para o convite */
+    overflow-y: auto; /* Habilita a rolagem vertical */
 }
 
 #group-invitation h2 {
@@ -128,6 +130,7 @@ body {
 #group-invitation button:hover {
     background-color: #357ab7;
 }
+
 
 .hidden {
     display: none;
